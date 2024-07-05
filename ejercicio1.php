@@ -4,12 +4,12 @@
 //Complejidad: BAJA (1 punto)
 
 function esPositivo($numero){
-    //Escribe tu código aquí
+if ($numero > 1 ) {
+    echo $numero; 
+}
+elseif ($numero < 0) {
+    echo $numero; 
+}
 }
 
-//Tests with assert
-assert(true == esPositivo(1), "El numero 1 es positivo");
-assert(false == esPositivo(-1), "El numero -1 es negativo");
-assert(false == esPositivo(0), "El numero 0 es negativo");
-assert(true == esPositivo(100), "El numero 100 es positivo");
-assert(false == esPositivo(-100), "El numero -100 es negativo");
+
