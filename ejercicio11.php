@@ -6,8 +6,8 @@
 //Pista: puedes usar la función strrev(). Busca en la documentación de PHP cómo se usa.
 
 function invertirPalabra($palabra){
-    //Escribe tu código aquí
-
+    echo strrev($palabra); 
+    
 }
 
 //Tests

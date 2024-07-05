@@ -5,7 +5,11 @@
 // Complejidad: BAJA (1 punto)
 
 function esDivisible($numero1, $numero2){
-    //Escribe tu código aquí
+    if (($numero1 % $numero2)==0) {
+        echo "es  divisible";
+    } else {
+        echo "no es divisible";
+    }
 }
 
 //Tests
